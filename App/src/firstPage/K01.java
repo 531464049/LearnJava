@@ -1,4 +1,4 @@
-package src;
+package src.firstPage;
 
 import java.util.Scanner;
 

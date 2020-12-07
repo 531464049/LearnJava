@@ -5,8 +5,7 @@
 * @Author  : mh
 */
 
-import src.K01;
-import src2.*;
+import src.firstPage.*;
 
 public class App {
     public static void main(String[] args) {

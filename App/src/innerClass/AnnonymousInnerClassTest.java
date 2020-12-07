@@ -1,4 +1,4 @@
-package innerClass;
+package src.innerClass;
 
 import java.awt.Toolkit;
 import java.awt.event.*;

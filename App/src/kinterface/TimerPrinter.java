@@ -1,4 +1,4 @@
-package src2;
+package src.kinterface;
 
 import java.awt.*;
 import java.awt.event.*;

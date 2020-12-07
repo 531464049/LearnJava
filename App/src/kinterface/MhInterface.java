@@ -1,6 +1,6 @@
-package src2;
+package src.kinterface;
 
-import src.Employee;
+import src.firstPage.*;
 
 public class MhInterface implements Comparable<MhInterface> {
     private double salary;

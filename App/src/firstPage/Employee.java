@@ -1,4 +1,4 @@
-package src;
+package src.firstPage;
 
 public class Employee {
     private static int nextID = 1;
