@@ -1,17 +1,36 @@
+import java.awt.*;
+import javax.swing.*;
 
-/*
-* -*- coding: utf-8 -*-
-* 2020-11-18
-* @Author  : mh
-*/
-
-import src.firstPage.*;
-
+/// pdf-page-384
 public class App {
     public static void main(String[] args) {
         System.out.println("app run");
-        K01.test_01();
-        // pdf-page-102
+        // testFrame();
+    }
 
+    public static void testFrame() {
+        EventQueue.invokeLater(() -> {
+            SimpleFrame frame = new SimpleFrame();
+            frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            frame.setVisible(true);
+        });
+    }
+}
+
+/**
+ * SimpleFrame
+ */
+class SimpleFrame extends JFrame {
+    public SimpleFrame() {
+        // get screen size
+        Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+        int width = screenSize.width / 2;
+        int height = screenSize.height / 2;
+        this.setSize(width, height);
+        this.setLocationByPlatform(true);
+        // why????
+        Image icon = new ImageIcon("img/app_icon.png").getImage();
+        this.setIconImage(icon);
+        this.setTitle("sb");
     }
 }
