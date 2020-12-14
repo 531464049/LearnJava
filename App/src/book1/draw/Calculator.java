@@ -6,6 +6,11 @@ import javax.swing.*;
 
 public class Calculator extends JFrame {
 
+    /**
+     *
+     */
+    private static final long serialVersionUID = 3697053976201773014L;
+
     public static void main(String[] args) {
         System.out.println("Calculator");
         EventQueue.invokeLater(() -> {
@@ -27,6 +32,10 @@ public class Calculator extends JFrame {
  * CalculatorPanel
  */
 class CalculatorPanel extends JPanel {
+    /**
+     *
+     */
+    private static final long serialVersionUID = 8675825749530272895L;
     public static final int K_WIDTH = 200;
     public static final int K_HEIGHT = 300;
 

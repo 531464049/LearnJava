@@ -21,6 +21,11 @@ public class App {
  * SimpleFrame
  */
 class SimpleFrame extends JFrame {
+    /**
+     *
+     */
+    private static final long serialVersionUID = 7092429449971319071L;
+
     public SimpleFrame() {
         // get screen size
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();

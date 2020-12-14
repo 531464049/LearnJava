@@ -3,7 +3,6 @@ package src.book1.bounce;
 import java.awt.geom.*;
 
 public class Ball {
-    private static final long serialVersionUID = 1L;
     private static final int XSIZE = 15;
     private static final int YSIZE = 15;
     private double x = 0;

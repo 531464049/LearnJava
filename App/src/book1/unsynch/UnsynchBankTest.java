@@ -9,11 +9,11 @@ public class UnsynchBankTest {
     public static void main(String[] args) {
         System.out.println("start");
         Bank bank = new Bank(NACCOUNTS, INITIALBALANCE);
-        for (int i = 0; i < NACCOUNTS; i++) {
-            int fromAccount = i;
+        for (int i = 0; i < 5; i++) {
             Runnable r = () -> {
                 try {
                     while (true) {
+                        int fromAccount = (int) (NACCOUNTS * Math.random());
                         int toAccount = (int) (bank.size() * Math.random());
                         double amount = MAXAMOUNT * Math.random();
                         bank.transfer(fromAccount, toAccount, amount);

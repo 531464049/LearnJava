@@ -5,6 +5,10 @@ import java.awt.*;
 import javax.swing.*;
 
 public class ButtonFrame extends JFrame {
+    /**
+     *
+     */
+    private static final long serialVersionUID = -1971838820671486615L;
     private JPanel buttonPanel;
     private int tapIndex = 0;
     private static final int K_WIDTH = 300;
