@@ -29,7 +29,7 @@ class SimpleFrame extends JFrame {
         this.setSize(width, height);
         this.setLocationByPlatform(true);
         // why????
-        Image icon = new ImageIcon("img/app_icon.png").getImage();
+        Image icon = new ImageIcon("App/images/app_icon.png").getImage();
         this.setIconImage(icon);
         this.setTitle("sb");
     }
