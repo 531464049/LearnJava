@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<gridbag>
+   <row>
+      <cell anchor="EAST">
+         <bean>
+            <class>javax.swing.JLabel</class>
+            <property>
+               <name>text</name>
+               <value><string>Face: </string></value>
+            </property>
+         </bean>
+      </cell>
+      <cell fill="HORIZONTAL" weightx="100">
+         <bean id="face">
+            <class>javax.swing.JComboBox</class>
+         </bean>
+      </cell>
+   </row>
+   <row>
+      <cell anchor="EAST">
+         <bean>
+            <class>javax.swing.JLabel</class>
+            <property>
+               <name>text</name>
+               <value><string>Size: </string></value>
+            </property>
+         </bean>
+      </cell>
+      <cell fill="HORIZONTAL" weightx="100">
+         <bean id="size">
+            <class>javax.swing.JComboBox</class>
+         </bean>
+      </cell>
+   </row>
+</gridbag>
+      
+      
