@@ -1,5 +1,7 @@
 package src.book3.p02;
 
+import src.book3.Mpr;
+
 public class TestA {
 
     public static void main(String[] args) {
@@ -12,8 +14,9 @@ public class TestA {
         model.setA(10);
 
         System.getProperties().list(System.out);
-        System.out.println(System.getProperty("user.name"));
-        System.out.println(System.getProperty("java.library.path"));
+        Mpr.pr(System.getProperty("user.name"));
+        Mpr.pr(System.getProperty("java.library.path"));
+
     }
 
 }
